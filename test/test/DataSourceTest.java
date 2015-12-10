@@ -14,5 +14,6 @@ public class DataSourceTest {
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("beans.xml");
 		DataSource ds = (DataSource) ctx.getBean("dataSource");
 		System.out.println(ds);
+		System.out.println("dddddddddd");
 	}
 }
